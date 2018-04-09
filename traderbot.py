@@ -101,6 +101,8 @@ async def on_message(message):
         await client.send_message(message.channel, "esse é o amigo bundudo do ale ne")
     if message.content =="esquilo":
         await client.send_message(message.channel, "esse menino é aquela lenda urbana de guarulhos ne filhao?")
+    if message.content =="andre":
+        await client.send_message(message.channel, "esse que gosta de pewdiepie ne ale")
     if message.content =="luan":
         await client.send_message(message.channel, "adoro a série desse menino")
     if message.content =="fortnite":
