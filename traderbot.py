@@ -109,9 +109,11 @@ async def on_message(message):
         await client.send_message(message.channel, "ainda bem que o ale n joga isso")
     if message.content.upper() =="VSF":
         await client.send_message(message.channel, "<@%s> vai vc" % (userID))
-    if message.author.id =="364826611041697822":
-        number=random.randint(0,9)  
-        await client.send_message(message.channel, "para de falar merda catito")
+    if message.author.id =="143607024087859200":
+        number=random.randint(0,9)
+        lista=[1,2,3]
+        if number in lista:
+           await client.send_message(message.channel, "para de falar merda catito")
     if message.content.upper().startswith('!TRADER SAY'):
         args = message.content.split(" ")
         await client.send_message(message.channel, "%s" % (" ".join(args[2:])))
