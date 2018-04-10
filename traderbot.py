@@ -41,7 +41,7 @@ async def on_message(message):
         await client.send_message(message.channel, "pergunta pra porra do guincho")
     if message.content.upper() =="Q":
         await client.send_message(message.channel, "q oq caralho")
-    if message.content.upper() =="KK":
+    if message.content.upper().startswith =="KK":
         await client.send_message(message.channel, "obrigado por rir")
     if message.content.upper() =="CUCK":
         await client.send_message(message.channel, "ó o ale ai")
@@ -53,7 +53,7 @@ async def on_message(message):
         await client.send_message(message.channel, "miau")
     if message.content.upper() =="PERAE":
         await client.send_message(message.channel, "to perando kk")
-    if message.content.upper() =="EAE":
+    if message.content.upper().startswith =="EAE":
         await client.send_message(message.channel, "<@%s> eae bro" % (userID))
     if message.content =="catito":
         await client.send_message(message.channel, "ah n")
