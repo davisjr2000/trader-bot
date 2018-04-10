@@ -11,6 +11,7 @@ client = commands.Bot(command_prefix = "!")
 @client.event
 async def on_ready():
     print("Trader is ready!")
+      await client.change_presence(game=discord.Game(name='Flappy Catito'))
   
     
 @client.event
