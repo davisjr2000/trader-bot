@@ -125,7 +125,7 @@ async def on_message(message):
         number=random.randint(0,99)
         lista=[17,22]
         if number in lista:
-           await client.send_message(message.channel, "Gomunismo .")
+           await client.send_message(message.channel, "Para ser justo, você tem que ter um QI muito alto para entender Rick e Morty. O humor é extremamente sutil e, sem uma sólida compreensão da física teórica, a maioria das piadas vai sobre a cabeça de um espectador típico. Há também a visão niilista de Rick, que é habilmente tecida em sua caracterização - sua filosofia pessoal se baseia fortemente na literatura de Narodnaya Volya, por exemplo. Os fãs entendem essas coisas; eles têm a capacidade intelectual de realmente apreciar as profundezas dessas piadas, perceber que eles não são apenas engraçados - eles dizem algo profundo sobre a VIDA. Como conseqüência, pessoas que não gostam de Rick e Morty são SÓ idiotas - é claro que não apreciariam, por exemplo, o humor no slogan existencial de Rick “Wubba Lubba Dub Dub”, que em si é uma referência enigmática ao épico russo de Turgenev, Fathers and Sons. . Estou sorrindo agora imaginando um desses simplórios entristecidos coçando a cabeça em confusão enquanto a genialidade de Dan Harmon se desdobra em suas telas de televisão. Que idiotas ... como tenho pena deles. 😂E sim, a propósito, eu tenho uma tatuagem de Rick & Morty. E não, você não pode ver isso. É apenas para os olhos das mulheres - e mesmo assim elas têm que demonstrar que elas estão dentro de 5 pontos de QI (de preferência mais baixos) de antemão. Nada garoto pessoal.")
     if message.author.id =="325407029382348801":
         number=random.randint(0,99)
         lista=[24]
