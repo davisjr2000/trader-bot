@@ -123,11 +123,6 @@ async def on_message(message):
            await client.send_message(message.channel, "mas little.")
     if message.author.id =="325407029382348801":
         number=random.randint(0,99)
-        lista=[17,22]
-        if number in lista:
-           await client.send_message(message.channel, "Eu tava fznd ex de bio e li besouro rola bosta e ri alto")
-    if message.author.id =="325407029382348801":
-        number=random.randint(0,99)
         lista=[24]
         if number in lista:
            await client.send_message(message.channel, "Testando o ovo do Ale.")
