@@ -143,7 +143,7 @@ async def on_message(message):
             await client.send_message(message.channel, "BRO FAZ SOL")
         if number in lista3:
             await client.send_message(message.channel, "gang gang")
-        if number in lista3:
+        if number in lista4:
             await client.send_message(message.channel, "vc e branco bro")
     if message.content =="=m s":
         number=random.randint(0,9)
