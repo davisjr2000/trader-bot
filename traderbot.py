@@ -157,8 +157,11 @@ async def on_message(message):
     if message.author.id =="143607024087859200":
         number=random.randint(0,9)
         lista=[1,2]
+        lista2=[4,5]
         if number in lista:
            await client.send_message(message.channel, "para de falar merda catito")
+        if number in lista2:
+           await client.send_message(message.channel, ":miau: hurhur eu so o catito")
     if message.author.id =="307282841501171712":
         number=random.randint(0,9)
         lista=[1,2,3]
