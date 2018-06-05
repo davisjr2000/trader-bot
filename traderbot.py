@@ -99,7 +99,7 @@ async def on_message(message):
         await client.send_message(message.channel, "ue oq? quer que eu desenhe pra vc?")
     if message.content =="@everyone":
         await client.send_message(message.channel, "geral cola aqui")
-    if message.content =="tetinha":
+    if message.content =="tetinhas":
         await client.send_message(message.channel, "esse é o amigo bundudo do ale ne")
     if message.content =="esquilo":
         await client.send_message(message.channel, "esse menino é aquela lenda urbana de guarulhos ne filhao?")
@@ -109,23 +109,57 @@ async def on_message(message):
         await client.send_message(message.channel, "adoro a série desse menino")
     if message.content =="fortnite":
         await client.send_message(message.channel, "ainda bem que o ale n joga isso")
-    if message.content.upper() =="VSF":
-        await client.send_message(message.channel, "<@%s> vai vc" % (userID))
-    if message.author.id =="143607024087859200":
+    if message.content =="flavio":
+        await client.send_message(message.channel, "pernambucano do inferno") 
+    if message.content =="guincho":
+        await client.send_message(message.channel, "esse devia ta fznd LR mas fica o dia inteiro coçando o saco")
+    if message.content =="ricardo":
+        await client.send_message(message.channel, "faz uma webnamorada no python p mim pfvr")
+    if message.content =="bolinho tetinhas":
+        await client.send_message(message.channel, "esse foi feito na unha")
+    if message.content =="=m p toto africa":
+        await client.send_message(message.channel, "nossa toto africa mto bom")
+    if message.content.upper() =="RIP":
+        await client.send_message(message.channel, "=f pipi")
+    if message.content.upper() =="PQP":
+        await client.send_message(message.channel, "Language.")
+    if message.content =="=m s":
         number=random.randint(0,9)
         lista=[1,2,3]
+        if number in lista:
+           await client.send_message(message.channel, "nao porra mo foda a musica")
+    if message.content.upper() =="VSF":
+        await client.send_message(message.channel, "<@%s> vai vc" % (userID))
+    if message.content.upper() =="MAS LITTLE.":
+        await client.send_message(message.channel, "Mas <@%s>." % (userID))
+    if message.author.id =="143607024087859200":
+        number=random.randint(0,9)
+        lista=[1,2]
         if number in lista:
            await client.send_message(message.channel, "para de falar merda catito")
     if message.author.id =="307282841501171712":
         number=random.randint(0,9)
-        lista=[1,2,3,4]
+        lista=[1,2,3]
         if number in lista:
            await client.send_message(message.channel, "mas little.")
+    if message.author.id =="216660094048403457":
+        number=random.randint(0,9)
+        lista=[1,2]
+        if number in lista:
+           await client.send_message(message.channel, "caralho esse pernumbucano branco é uma máquina de fala merda")
+    if message.author.id =="294968198535577600":
+        number=random.randint(0,9)
+        lista=[1,2]
+        if number in lista:
+           await client.send_message(message.channel, "harhar")
     if message.author.id =="325407029382348801":
         number=random.randint(0,99)
         lista=[24]
+        lista2=[1,2,3,4,5]
         if number in lista:
            await client.send_message(message.channel, "Testando o ovo do Ale.")
+        elif number in lista2:
+           await client.send_message(message.channel, "Nada importa msm")
     if message.content.upper().startswith('!TRADER SAY'):
         args = message.content.split(" ")
         await client.send_message(message.channel, "%s" % (" ".join(args[2:])))
