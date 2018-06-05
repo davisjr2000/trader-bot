@@ -117,12 +117,34 @@ async def on_message(message):
         await client.send_message(message.channel, "faz uma webnamorada no python p mim pfvr")
     if message.content =="bolinho tetinhas":
         await client.send_message(message.channel, "esse foi feito na unha")
+    if message.content =="péter":
+        await client.send_message(message.channel, ":moyai:")
+    if message.content =="peter":
+        await client.send_message(message.channel, ":moyai:")
     if message.content =="=m p toto africa":
         await client.send_message(message.channel, "nossa toto africa mto bom")
     if message.content.upper() =="RIP":
-        await client.send_message(message.channel, "=f pipi")
+        await client.send_message(message.channel, "=f pipi") 
+    if message.content.upper() =="EU SOQUEI UM HATER NO SHOPPING":
+        await client.send_message(message.channel, "QUE FALOU BOSTA") 
+    if message.content.upper() =="ÓCULOS DO KURT COBAIN":
+        await client.send_message(message.channel, "Double cup, Sprite, Codein")
     if message.content.upper() =="PQP":
         await client.send_message(message.channel, "Language.")
+    if message.content.upper() =="RAFFA MOREIRA":
+        number=random.randint(0,9)
+        lista=[0,1,2]
+        lista2=[3,4,5]
+        lista3=[6,7]
+        lista4=[8,9]
+        if number in lista:
+            await client.send_message(message.channel, "MIXTAPE MANO")
+        if number in lista2:
+            await client.send_message(message.channel, "BRO FAZ SOL")
+        if number in lista3:
+            await client.send_message(message.channel, "gang gang")
+        if number in lista3:
+            await client.send_message(message.channel, "vc e branco bro")
     if message.content =="=m s":
         number=random.randint(0,9)
         lista=[1,2,3]
