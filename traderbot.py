@@ -158,6 +158,8 @@ async def on_message(message):
         await client.send_message(message.channel, "<@%s> vai vc" % (userID))
     if message.content.upper() =="MAS LITTLE.":
         await client.send_message(message.channel, "Mas <@%s>." % (userID))
+    if message.content =="=m p":
+        await client.send_message(message.channel, "solta o som <@%s>" % (userID))
     if message.author.id =="143607024087859200":
         number=random.randint(0,9)
         lista=[1,2]
