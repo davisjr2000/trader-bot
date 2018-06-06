@@ -2,7 +2,6 @@ import discord
 import random
 from discord.ext.commands import Bot
 from discord.ext import commands
-from discord.utils import get
 import asyncio
 import time
 
@@ -135,9 +134,9 @@ async def on_message(message):
     if message.content.upper() =="PQP":
         await client.send_message(message.channel, "Language.")
     if message.content.upper() =="TRADER BUGO":
-        await client.send_message(message.channel, ":wrench:"+Dave+" i got this")
+        await client.send_message(message.channel, "chama o dave")
     if message.content.upper() =="TRADER MORREU":
-        await client.send_message(message.channel, ":wrench:"+Dave+" i got this")
+        await client.send_message(message.channel, "chama o dave")
     if message.content.upper() =="RAFFA MOREIRA":
         number=random.randint(0,9)
         lista=[0,1,2]
@@ -170,7 +169,7 @@ async def on_message(message):
         if number in lista:
            await client.send_message(message.channel, "para de falar merda catito")
         if number in lista2:
-           await client.send_message(message.channel, Miau+"hurhur eu so o catito")
+           await client.send_message(message.channel, "hurhur eu so o catito")
     if message.author.id =="307282841501171712":
         number=random.randint(0,9)
         lista=[1,2,3]
