@@ -17,8 +17,6 @@ async def on_ready():
 @client.event
 async def on_message(message):
     userID = message.author.id
-    Miau = get(bot.get_all_emojis(), name=':Miau:')
-    Dave = get(bot.get_all_emojis(), name=':Dave:')
     if message.content.upper() == "ALE":
         await client.send_message(message.channel, "esse é niilista")
     if message.content.upper() =="ALE É MÓ...":
