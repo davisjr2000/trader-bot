@@ -156,8 +156,8 @@ async def on_message(message):
            await client.send_message(message.channel, "nao porra mo foda a musica")
     if message.content.upper() =="VSF":
         await client.send_message(message.channel, "<@%s> vai vc" % (userID))
-    if message.content.upper() =="MAS LITTLE.":
-        await client.send_message(message.channel, "Mas <@%s>." % (userID))
+    if message.content.upper() =="MAS LITTLE." and message.author.id!="431999631120138240":
+        await client.send_message(message.channel, "mas <@%s>." % (userID))
     if message.content =="=m p":
         await client.send_message(message.channel, "solta o som <@%s>" % (userID))
     if message.author.id =="143607024087859200":
@@ -171,7 +171,7 @@ async def on_message(message):
     if message.author.id =="307282841501171712":
         number=random.randint(0,9)
         lista=[1,2,3]
-        if number in lista and message.author.id!="431999631120138240":
+        if number in lista :
            await client.send_message(message.channel, "mas little.")
     if message.author.id =="216660094048403457":
         number=random.randint(0,9)
