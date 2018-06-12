@@ -171,7 +171,7 @@ async def on_message(message):
     if message.author.id =="307282841501171712":
         number=random.randint(0,9)
         lista=[1,2,3]
-        if number in lista:
+        if number in lista and message.author.id!="431999631120138240":
            await client.send_message(message.channel, "mas little.")
     if message.author.id =="216660094048403457":
         number=random.randint(0,9)
