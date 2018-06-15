@@ -115,6 +115,8 @@ async def on_message(message):
         await client.send_message(message.channel, "esse devia ta fznd LR mas fica o dia inteiro coçando o saco")
     if message.content =="ricardo":
         await client.send_message(message.channel, "faz uma webnamorada no python p mim pfvr")
+    if message.content.upper() =="KD":
+        await client.send_message(message.channel, "n sei to procurando")
     if message.content =="bolinho tetinhas":
         await client.send_message(message.channel, "esse foi feito na unha")
     if message.content =="péter":
