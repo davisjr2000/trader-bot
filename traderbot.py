@@ -96,9 +96,9 @@ async def on_message(message):
     if message.content =="flappy":
         await client.send_message(message.channel, "esse sim, jogo do ano")
     if message.content.upper() =="UE":
-        await client.send_message(message.channel, "ue oq? quer que eu desenhe pra vc?")
+        await client.send_message(message.channel, "ue oq?")
     if message.content =="@everyone":
-        await client.send_message(message.channel, "geral cola aqui")
+        await client.send_message(message.channel, "chega mais rapaziada")
     if message.content =="tetinhas":
         await client.send_message(message.channel, "esse é o amigo bundudo do ale ne")
     if message.content =="esquilo":
@@ -138,8 +138,10 @@ async def on_message(message):
     if message.content.upper().startswith("BAN"):
         if message.author.id =="143607024087859200":
           await client.send_message(message.channel, "calaboca catito tem quem q ser banido é vc")
+          continue
         else:
           await client.send_message(message.channel, "ban catito")
+          continue
     if message.content.upper() =="RAFFA MOREIRA":
         number=random.randint(0,9)
         lista=[0,1,2]
