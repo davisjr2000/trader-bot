@@ -139,7 +139,7 @@ async def on_message(message):
         await client.send_message(message.channel, "chama o dave")
     if message.content.upper()=="BAN":
         if message.author.id =="143607024087859200":
-          await client.send_message(message.channel, "calaboca catito tem quem q ser banido é vc")
+          await client.send_message(message.channel, "calaboca catito quem ter q ser banido é vc")
         else:
           await client.send_message(message.channel, "ban catito")
     if message.content.upper() =="RAFFA MOREIRA":
@@ -190,18 +190,19 @@ async def on_message(message):
         lista=[1,2]
         if number in lista:
            await client.send_message(message.channel, "harhar")
-    if message.author.id =="325407029382348801":
-        number=random.randint(0,99)
+    if message.author.id =="132989284067180544":
+        number=random.randint(0,11)
         lista=[5,6]
         if number in lista:
-           await client.send_message(message.channel, "Mano esquilo calaboca ce mora no cu do mundo ")
-    if message.author.id =="132989284067180544":
-        number=random.randint(0,9)
-        lista=[24]
-        if number in lista:
+           await client.send_message(message.channel, "Mano esquilo calaboca ce mora no cu do mundo")
+    if message.author.id =="325407029382348801":
+        number=random.randint(0,99)
+        if number ==24:
            await client.send_message(message.channel, "Testando o ovo do Ale.")
         elif number < 10 :
            await client.send_message(message.channel, "Nada importa msm")
+        elif number > 90 :
+           await client.send_message(message.channel, "mó...")
     if message.content.upper().startswith('!TRADER SAY'):
         args = message.content.split(" ")
         await client.send_message(message.channel, "%s" % (" ".join(args[2:])))
