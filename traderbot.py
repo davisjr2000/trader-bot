@@ -137,13 +137,11 @@ async def on_message(message):
         await client.send_message(message.channel, "chama o dave")
     if message.content.upper() =="TRADER MORREU":
         await client.send_message(message.channel, "chama o dave")
-    if message.content.upper().startswith("BAN"):
+    if message.content.upper()=="BAN":
         if message.author.id =="143607024087859200":
           await client.send_message(message.channel, "calaboca catito tem quem q ser banido é vc")
-          continue
         else:
           await client.send_message(message.channel, "ban catito")
-          continue
     if message.content.upper() =="RAFFA MOREIRA":
         number=random.randint(0,9)
         lista=[0,1,2]
