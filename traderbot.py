@@ -49,7 +49,7 @@ async def on_message(message):
         await client.send_message(message.channel, "ó o ale ai")
     if message.content.upper() =="KCT":
         await client.send_message(message.channel, "no seu cu arrombado")
-    if message.content.upper().startswith =="ahn":
+    if message.content.upper() =="AHN":
         await client.send_message(message.channel, "para c essa bosta de 'ahn'")
     if message.content.upper() =="GRR":
         await client.send_message(message.channel, "miau")
@@ -62,7 +62,7 @@ async def on_message(message):
     if message.content =="trader":
         await client.send_message(message.channel, "fala")
     if message.content.upper() =="PO":
-        await client.send_message(message.channel, "adoro kung fu panda")
+        await client.send_message(message.channel, "rra")
     if message.content =="porra":
         await client.send_message(message.channel, "tudo isso")
     if message.content =="porr":
@@ -135,6 +135,11 @@ async def on_message(message):
         await client.send_message(message.channel, "chama o dave")
     if message.content.upper() =="TRADER MORREU":
         await client.send_message(message.channel, "chama o dave")
+    if message.content.upper().startswith("BAN"):
+        if message.author.id =="143607024087859200":
+          await client.send_message(message.channel, "calaboca catito tem quem q ser banido é vc")
+        else:
+          await client.send_message(message.channel, "ban catito")
     if message.content.upper() =="RAFFA MOREIRA":
         number=random.randint(0,9)
         lista=[0,1,2]
@@ -170,7 +175,7 @@ async def on_message(message):
            await client.send_message(message.channel, "hurhur eu so o catito")
     if message.author.id =="307282841501171712":
         number=random.randint(0,9)
-        lista=[1,2,3]
+        lista=[2,3]
         if number in lista :
            await client.send_message(message.channel, "mas little.")
     if message.author.id =="216660094048403457":
@@ -185,11 +190,15 @@ async def on_message(message):
            await client.send_message(message.channel, "harhar")
     if message.author.id =="325407029382348801":
         number=random.randint(0,99)
+        lista=[5,6]
+        if number in lista:
+           await client.send_message(message.channel, "Mano esquilo calaboca ce mora no cu do mundo ")
+    if message.author.id =="132989284067180544":
+        number=random.randint(0,9)
         lista=[24]
-        lista2=[1,2,3,4,5]
         if number in lista:
            await client.send_message(message.channel, "Testando o ovo do Ale.")
-        elif number in lista2:
+        elif number < 10 :
            await client.send_message(message.channel, "Nada importa msm")
     if message.content.upper().startswith('!TRADER SAY'):
         args = message.content.split(" ")
