@@ -208,7 +208,7 @@ async def on_message(message):
     if message.content.upper().startswith('!TRADER SAY'):
         args = message.content.split(" ")
         await client.send_message(message.channel, "%s" % (" ".join(args[2:])))
-    if message.content.startswith('=m p') and if message.content!="m p":
+    if message.content.startswith('=m p') :
         args= message.content.split(" ")
         number=random.randint(0,15)
         lista1=[1,2,3]
