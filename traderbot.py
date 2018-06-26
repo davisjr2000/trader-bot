@@ -214,9 +214,9 @@ async def on_message(message):
         lista1=[1,2,3]
         lista2=[12,13]
         if number in lista1:
-            await client.send_message(message.channel, "%s" % ('ae porra adoro' + args[2:])))
+            await client.send_message(message.channel, "%s" % ('ae porra adoro ' + ' '.join(args[2:])))
         if number in lista2:
-            await client.send_message(message.channel, "%s" % ('porra que merda' + args[2:])))
+            await client.send_message(message.channel, "%s" % ('porra que merda ' + ' '.join(args[2:])))
     if message.content.upper().startswith('QUAL O FRENE?'):
         memes = message.content.split(" ")
         if 'Catito' in memes or 'catito' in memes or 'CATITO' in memes:
