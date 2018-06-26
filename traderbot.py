@@ -169,7 +169,7 @@ async def on_message(message):
         await client.send_message(message.channel, "solta o som <@%s>" % (userID))
     if message.author.id =="143607024087859200":
         number=random.randint(0,19)
-        lista=[1,2,3,4]
+        lista=[1,2,3]
         lista2=[4,5,6]
         if number in lista:
            await client.send_message(message.channel, "calaboca seu gordo idiota")
@@ -183,10 +183,10 @@ async def on_message(message):
         if number in lista :
            await client.send_message(message.channel, "mas little.")
     if message.author.id =="216660094048403457":
-        number=random.randint(0,9)
+        number=random.randint(0,14)
         lista=[1,2]
         if number in lista:
-           await client.send_message(message.channel, "caralho esse pernumbucano branco é uma máquina de fala merda")
+           await client.send_message(message.channel, "se continuar falando merda vou sappar sua sentry")
     if message.author.id =="294968198535577600":
         number=random.randint(0,9)
         lista=[1,2]
@@ -208,6 +208,15 @@ async def on_message(message):
     if message.content.upper().startswith('!TRADER SAY'):
         args = message.content.split(" ")
         await client.send_message(message.channel, "%s" % (" ".join(args[2:])))
+    if message.content.startswith('=m p') and if message.content!="m p":
+        args= message.content.split(" ")
+        number=random.randint(0,15)
+        lista1=[1,2,3]
+        lista2=[12,13]
+        if number in lista1:
+            await client.send_message(message.channel, "%s" % ('ae porra adoro' + args[2:])))
+        if number in lista2:
+            await client.send_message(message.channel, "%s" % ('porra que merda' + args[2:])))
     if message.content.upper().startswith('QUAL O FRENE?'):
         memes = message.content.split(" ")
         if 'Catito' in memes or 'catito' in memes or 'CATITO' in memes:
