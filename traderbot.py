@@ -97,6 +97,8 @@ async def on_message(message):
         await client.send_message(message.channel, "esse sim, jogo do ano")
     if message.content.upper() =="UE":
         await client.send_message(message.channel, "ue oq?")
+    if message.content.upper() =="DORMAMMU":
+        await client.send_message(message.channel, "i've come to bargain")
     if message.content =="@everyone":
         await client.send_message(message.channel, "chega mais rapaziada")
     if message.content =="tetinhas":
@@ -174,7 +176,7 @@ async def on_message(message):
         lista=[1,2,3]
         lista2=[4,5,6]
         if number in lista:
-           await client.send_message(message.channel, "calaboca seu gordo idiota")
+           await client.send_message(message.channel, "kkkk o cara joga fortnite no switch")
         if number in lista2:
            await client.send_message(message.channel, "hurhur eu so o catito")
         if number==7:
@@ -221,7 +223,7 @@ async def on_message(message):
             await client.send_message(message.channel, "%s" % ('ae porra adoro ' + ' '.join(args[2:])))
         if number in lista2:
             await client.send_message(message.channel, "%s" % ('porra que merda ' + ' '.join(args[2:])))
-     if message.content.startswith('=m q') :
+    if message.content.startswith('=m q') :
         args= message.content.split(" ")
         number=random.randint(0,15)
         lista1=[1,2,3]
