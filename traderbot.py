@@ -115,6 +115,8 @@ async def on_message(message):
         await client.send_message(message.channel, "esse devia ta fznd LR mas fica o dia inteiro coçando o saco")
     if message.content =="ricardo":
         await client.send_message(message.channel, "faz uma webnamorada no python p mim pfvr")
+    if message.content.upper() =="SCP":
+        await client.send_message(message.channel, "jogao")
     if message.content.upper() =="KD":
         await client.send_message(message.channel, "n sei to procurando")
     if message.content =="bolinho tetinhas":
@@ -183,10 +185,12 @@ async def on_message(message):
         if number in lista :
            await client.send_message(message.channel, "mas little.")
     if message.author.id =="216660094048403457":
-        number=random.randint(0,14)
+        number=random.randint(0,20)
         lista=[1,2]
         if number in lista:
-           await client.send_message(message.channel, "se continuar falando merda vou sappar sua sentry")
+           await client.send_message(message.channel, "se continuar falando merda vou sap.. a porra o cara nem joga mais")
+        if number==7:
+           await client.send_message(message.channel, "kkkk o cara malha pra pegar mulher") 
     if message.author.id =="294968198535577600":
         number=random.randint(0,9)
         lista=[1,2]
@@ -200,7 +204,7 @@ async def on_message(message):
     if message.author.id =="325407029382348801":
         number=random.randint(0,99)
         if number ==24:
-           await client.send_message(message.channel, "Testando o ovo do Ale.")
+           await client.send_message(message.channel, "testando o ovo do Ale.")
         elif number < 10 :
            await client.send_message(message.channel, "nada importa msm")
         elif number > 90 :
@@ -209,6 +213,15 @@ async def on_message(message):
         args = message.content.split(" ")
         await client.send_message(message.channel, "%s" % (" ".join(args[2:])))
     if message.content.startswith('=m p') :
+        args= message.content.split(" ")
+        number=random.randint(0,15)
+        lista1=[1,2,3]
+        lista2=[12,13]
+        if number in lista1:
+            await client.send_message(message.channel, "%s" % ('ae porra adoro ' + ' '.join(args[2:])))
+        if number in lista2:
+            await client.send_message(message.channel, "%s" % ('porra que merda ' + ' '.join(args[2:])))
+     if message.content.startswith('=m q') :
         args= message.content.split(" ")
         number=random.randint(0,15)
         lista1=[1,2,3]
