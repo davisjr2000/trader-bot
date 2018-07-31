@@ -117,6 +117,8 @@ async def on_message(message):
         await client.send_message(message.channel, "esse devia ta fznd LR mas fica o dia inteiro coçando o saco")
     if message.content =="ricardo":
         await client.send_message(message.channel, "faz uma webnamorada no python p mim pfvr")
+    if message.content =="luan hacker":
+        await client.send_message(message.channel, "o cara zoa tf2 mas gosta de fantasia de cachorro")
     if message.content.upper() =="SCP":
         await client.send_message(message.channel, "jogao")
     if message.content.upper() =="KD":
@@ -178,7 +180,7 @@ async def on_message(message):
         if number in lista:
            await client.send_message(message.channel, "kkkk o cara joga fortnite no switch")
         if number in lista2:
-           await client.send_message(message.channel, "hurhur eu so o catito")
+           await client.send_message(message.channel, "ah veio parae to cansado")
         if number==7:
             await client.send_message(message.channel, "olha n queria fala nada mas dessa vez o catito ta certo")
     if message.author.id =="307282841501171712":
@@ -189,9 +191,9 @@ async def on_message(message):
     if message.author.id =="216660094048403457":
         number=random.randint(0,20)
         lista=[1,2]
+        if number==8:
+           await client.send_message(message.channel, "se continuar falando merda vou baixar o mod da sua namorada pelada")
         if number in lista:
-           await client.send_message(message.channel, "se continuar falando merda vou sap.. a porra o cara nem joga mais")
-        if number==7:
            await client.send_message(message.channel, "kkkk o cara malha pra pegar mulher") 
     if message.author.id =="294968198535577600":
         number=random.randint(0,9)
@@ -202,7 +204,7 @@ async def on_message(message):
         number=random.randint(0,11)
         lista=[5,6]
         if number in lista:
-           await client.send_message(message.channel, "mano esquilo calaboca ce mora no cu do mundo")
+           await client.send_message(message.channel, "kkkk o cara mora em gru")
     if message.author.id =="325407029382348801":
         number=random.randint(0,99)
         if number ==24:
@@ -240,6 +242,14 @@ async def on_message(message):
             size=len(memes)
             frene1=random.randint(3,size)
             await client.send_message(message.channel, "%s" % ("".join(memes[frene1])))
+    if message.content.upper().startswith('QUAL O CORNO?'):
+        memes = message.content.split(" ")
+        if 'Ale' in memes or 'ale' in memes or 'Nagy' in memes or 'nagy' in memes or ':Nagy:' in memes:
+            await client.send_message(message.channel, "óbvio que é o ale né")
+        else:
+            size=len(memes)
+            frene1=random.randint(3,size)
+            await client.send_message(message.channel, "%s" % ("bom já que o ale n tá aí acho que é o ".join(memes[frene1])))
        
                 
                 
