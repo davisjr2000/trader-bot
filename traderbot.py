@@ -188,6 +188,11 @@ async def on_message(message):
         lista=[2,3]
         if number in lista :
            await client.send_message(message.channel, "mas little.")
+    if message.author.id =="201575755124047879":
+        number=random.randint(0,9)
+        lista=[2,3,4,5]
+        if number in lista :
+           await client.send_message(message.channel, "kkkk o cara é furry")
     if message.author.id =="216660094048403457":
         number=random.randint(0,20)
         lista=[1,2]
@@ -249,7 +254,7 @@ async def on_message(message):
         else:
             size=len(memes)
             frene1=random.randint(3,size)
-            await client.send_message(message.channel, "%s" % ("bom já que o ale n tá aí acho que é o ".join(memes[frene1])))
+            await client.send_message(message.channel, "%s" % ("bom já que o ale n tá aí acho que é o " +(memes[frene1])))
        
                 
                 
